@@ -1,0 +1,12 @@
+{
+  "name": "conceptos-basicos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/ReactFrontDevs/conceptos-basicos.git",
+  "author": "nikolas090189 <nikolas090189@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --watch "
+  }
+}
