@@ -36,11 +36,11 @@
 > - Includes
 > - Every
 > - Some
-> - JSON
-> - JSON
-> - Object
-> - Object
-> - Object
+> - JSON.parse
+> - JSON.stringify
+> - Object.entries
+> - Object.keys
+> - Object.values
 > - Spread
 > - Rest
 > - Reduce
