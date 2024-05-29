@@ -2,7 +2,7 @@
 
 > [!TIP]
 >
-> Conceptos básicos
+> Conceptos ES6 básicos
 >
 > - Constantes y variables Let
 > - Template String
