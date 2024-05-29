@@ -1,0 +1,10 @@
+{
+    "nombre": "Juan",
+    "edad": 30,
+    "casado": true,
+    "hijos": ["Ana", "Luis"],
+    "direccion": {
+        "calle": "Calle Falsa",
+        "numero": 123
+    }
+}

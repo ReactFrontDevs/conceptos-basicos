@@ -56,9 +56,9 @@ console.log(
 // );
 
 //?? --Obtengamos el priner elemento que contenga "ss" en su estructura
-const elementWith_ss = brands.find((ele) =>
-  ele.toLocaleLowerCase().includes('ss')
-);
-console.log(`Elemento encontrado ${elementWith_ss}`);
+// const elementWith_ss = brands.find((ele) =>
+//   ele.toLocaleLowerCase().includes('ss')
+// );
+// console.log(`Elemento encontrado ${elementWith_ss}`);
 
 //!! Este método retorna el primer elemento que cumple con la condición

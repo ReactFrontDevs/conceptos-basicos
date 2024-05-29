@@ -56,3 +56,25 @@ console.log(
 // );
 
 // console.log('Marcas de auto con un espacio en blanco: ', transformedBrands);
+
+//?? -- Veamos un caso práctico mas
+// ** ---- Una problematica trivial es el hecho de
+// ** capitalizar frases o palabras.
+// ** Veamos una posible solución
+
+// 1. Herramienas a utilizar:
+//    - split(separator, limit): divide una cadena en un array de subcadenas.
+//    - charAt(index): accede a un indice de la cadena.
+//    - slice(index): elimina el indice indicado.
+//    - join(char): une los elementos de un array con un separador indicado.
+const capitalize = (phrase) => {
+  return phrase
+    .toLowerCase()
+    .split(' ')
+    .map((palabra) => palabra.charAt(0).toUpperCase() + palabra.slice(1))
+    .join(' ');
+};
+
+const phrase = 'quiero esta frase capitalizada!';
+
+console.log(capitalize(phrase));
