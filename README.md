@@ -2,7 +2,7 @@
 
 > [!TIP]
 >
-> Tabla de contenido
+> Conceptos básicos
 >
 > - Constantes y variables Let
 > - Template String
@@ -16,6 +16,12 @@
 >
 > _básicos_
 
+<br/>
+
+---
+
+<br/>
+
 > [!important]
 >
 > Para correr los script de prueba se ha creado el archivo package.json
@@ -26,9 +32,15 @@
 > - se debe ejecutar: **yarn dev < nombre del script >**
 > - para cortar la ejecución basta con **< ctrl > + c**
 
+<br/>
+
+---
+
+<br/>
+
 > [!NOTE]
 >
-> Tabla de contenido
+> Métodos más utilizados
 >
 > - Map
 > - Filter
@@ -41,8 +53,6 @@
 > - Object.entries
 > - Object.keys
 > - Object.values
-> - Spread
-> - Rest
 > - Reduce
 > - GroupBy
 >
