@@ -1,0 +1,201 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700,900&family=Poppins:wght@700&display=swap");
+
+:root {
+    --font-body: "Open Sans", sans-serif;
+    --font-headings: "Poppins", sans-serif;
+    --padding-container: 1rem 0;
+    --button-heigth: 2.5rem;
+    --button-background-color: #ec5526;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+  }
+  
+  body {
+    font-family: var(--font-body);
+  }
+
+  .container {
+    padding: var(--padding-container);
+    max-width: 950px;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  /** ---  Trabajemos el header de la página --- */
+  header {
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header p:first-child {
+    align-self: center;
+    background-color: var(--button-background-color);
+    height: var(--button-heigth);
+    width: var(--button-heigth);
+    border: none;
+    text-align: center;
+    place-content: center;
+  }
+
+  header p:nth-child(2) {
+    background-color: #e3edf0;
+    height: var(--button-heigth);
+    padding: 0 1rem;
+    font-weight: 600;
+    font-size: small;
+    border-radius: 5px;
+    place-content: center;
+  }
+
+  /** ---  Trabajemos los text de la página --- */
+
+  .texts {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section .texts__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+
+  section .texts__info h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .texts__info .paragraph{
+    color: lightgrey;
+  }
+
+  section .texts__info .texts__bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  section .texts__info .texts__bottom p:first-child{
+    background-color: var(--button-background-color);
+    color: white;
+    height: var(--button-heigth);
+    padding: 0 1rem;
+    font-weight: 400;
+    font-size: small;
+    border-radius: 5px;
+    place-content: center;
+    margin-right: 1rem;
+  }
+  section .texts__info .texts__bottom p:nth-child(2){
+    height: var(--button-heigth);
+    padding: 0 1rem;
+    font-weight: 600;
+    color: rgb(147, 145, 145);
+    font-size: small;
+    border-radius: 5px;
+    place-content: center;
+  }
+
+  
+  .texts_image {
+    display: flex;
+    place-content: end;
+  }
+  .texts_image img {
+    height: 22rem;
+    width: 28rem;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+
+
+/** ---  Trabajemos el footer de la página --- */
+
+.footer {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: minmax(350px, 2fr) 1fr; 
+}
+
+.footer .images {
+  display: flex;
+  justify-content: start;
+}
+
+.footer .images .image_1 {
+  max-width: 180px;
+  height: 370px;
+  border-radius: 25px;
+  margin-right: 1rem;
+}
+.footer .images .image_2 {
+  width: 400px;
+  height: 370px;
+  border-radius: 25px;
+}
+
+.footer .texts {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.footer .texts h4 {
+  font-size: x-large;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footer .texts p {
+  color: lightgrey;
+}
+
+
+@media (max-width: 950px) {
+  .texts {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {  
+  .texts_image img {
+    width: 15rem;
+  }
+
+  .footer .images .image_2 {
+    width: 180px;
+    height: 370px;
+    border-radius: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .texts {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+
+}
+
+
+
+
