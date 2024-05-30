@@ -54,7 +54,7 @@ body {
     border-radius: 1em;
     background: rgba(255, 255, 255, .15);
     border: 2px solid #ffffff10;
-    backdrop-filter: blur(50px);
+    /* backdrop-filter: blur(50px); */
     transition: 0.2s ease-in;
 }
 .col-box:hover{
@@ -91,6 +91,58 @@ body {
 }
 .row-3.col-box {
     flex: 1;
+}
+
+
+/* --- Gallery --- */
+
+.col-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+}
+
+.row-2 .col-box{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.row-2 .col-box:first-child{
+    background-image: url("./images/landscape1.jpg");
+}
+.row-2 .col-box:nth-child(2){
+    background-image: url("./images/landscape2.jpg");
+}
+.row-2 .col-box:last-child{
+    background-image: url("./images/landscape6.jpg");
+}
+
+
+.row-3 .col-box{
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.row-3 .col-box:first-child{
+    background-image: url("./images/landscape3.jpg");
+}
+.row-3 .col-box:last-child{
+    background-image: url("./images/landscape7.jpg");
+}
+
+button {
+    padding: 1em 3rem;
+    border-radius: 1em;
+    border: transparent;
+    background-color: #ec5526;
+    color: white;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 
