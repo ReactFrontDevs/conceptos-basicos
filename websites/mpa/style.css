@@ -135,15 +135,7 @@ body {
     background-image: url("./images/landscape7.jpg");
 }
 
-button {
-    padding: 1em 3rem;
-    border-radius: 1em;
-    border: transparent;
-    background-color: #ec5526;
-    color: white;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
+
 
 
 /* --- Brekpoints --- */

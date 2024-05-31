@@ -51,6 +51,9 @@ body {
 .col-box{
     /* border: 2px solid red; */
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 1em;
     background: rgba(255, 255, 255, .15);
     /* border: 2px solid #ffffff10; */
@@ -143,6 +146,16 @@ body {
 }
 .row-3 .col-box:last-child{
     background-image: url("./images/landscape7.jpg");
+}
+
+button {
+    padding: 1em 3rem;
+    border-radius: 1em;
+    border: transparent;
+    background-color: #ec5526;
+    color: white;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 /* --- Brekpoints --- */
