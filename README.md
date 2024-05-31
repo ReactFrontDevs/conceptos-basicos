@@ -57,3 +57,13 @@
 > - GroupBy
 >
 > _Métodos JS de mayor frecuencia_
+
+> [!TIP]
+>
+> Websites
+>
+> - basic -> sitio básico maquetado y estilizado
+> - bento -> Bento Grid utilizando la estrategia de Flexbox
+> - MPA -> Multi page aplication
+>
+> _Finalmente tenemos tres sitios que nos dan una idea de como podriamos armar por partes nuestra web hasta llegar a producciones mas complejas_
