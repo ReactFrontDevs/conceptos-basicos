@@ -58,6 +58,12 @@
 >
 > _Métodos JS de mayor frecuencia_
 
+<br/>
+
+---
+
+<br/>
+
 > [!TIP]
 >
 > Websites
