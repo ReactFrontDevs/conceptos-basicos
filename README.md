@@ -1,6 +1,6 @@
 # conceptos-basicos
 
-![](markmap.svg)
+![](./raodmap.png)
 
 > [!TIP]
 >
