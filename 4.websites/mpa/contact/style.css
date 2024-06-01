@@ -89,7 +89,7 @@
   }
 
 
-  button {
+button {
     border-radius: 1em;
     border: transparent;
     background-color: #ec5526;
@@ -97,7 +97,8 @@
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-  section .texts__info .texts__bottom p:first-child{
+
+section .texts__info .texts__bottom p:first-child{
     background-color: var(--button-background-color);
     color: white;
     height: var(--button-heigth);
