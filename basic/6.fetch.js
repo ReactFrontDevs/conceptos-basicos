@@ -3,7 +3,7 @@
  *                                                */
 
 //? Para poner en practica el poder que tiene trbajar con Promise
-//? Hagamos uso del Fetch API para solicitar datos a una servicio REST publico
+//? Hagamos uso del Fetch API solicitando datos a una servicio REST público
 
 const pokeApiUrl = 'https://pokeapi.co/api/v2/pokemon';
 

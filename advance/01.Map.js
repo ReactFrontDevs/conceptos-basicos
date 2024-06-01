@@ -67,14 +67,15 @@ console.log(
 //    - charAt(index): accede a un indice de la cadena.
 //    - slice(index): elimina el indice indicado.
 //    - join(char): une los elementos de un array con un separador indicado.
-const capitalize = (phrase) => {
-  return phrase
-    .toLowerCase()
-    .split(' ')
-    .map((palabra) => palabra.charAt(0).toUpperCase() + palabra.slice(1))
-    .join(' ');
-};
 
-const phrase = 'quiero esta frase capitalizada!';
+// const capitalize = (phrase) => {
+//   return phrase
+//     .toLowerCase()
+//     .split(' ')
+//     .map((palabra) => palabra.charAt(0).toUpperCase() + palabra.slice(1))
+//     .join(' ');
+// };
 
-console.log(capitalize(phrase));
+// const phrase = 'quiero esta frase capitalizada!';
+
+// console.log(capitalize(phrase));

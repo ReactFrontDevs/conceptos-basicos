@@ -3,13 +3,14 @@
  *                                                */
 
 //? Promise
-//? Las promesas representan un acuerdo de respuesta en un tiempo asincrono
-//? Es decir esta deberá resolverse y devolver una respuesta
-//? Es comunmente utilizada para recuperar datos de una api o base de datos
+//? Una promesa en Node.js es un objeto JavaScript que representa
+//?   el resultado de una operación asíncrona, ya sea un éxito o un error.
+//?   Es decir esta deberá resolverse y devolver una respuesta
+//? Es comunmente utilizada para recuperar datos de una api o base de datos.
 //? De esta manera evitamos bloquear el hilo de ejecución y dicho bloque terminará
-//? su ejecución una vez la promesa haya concluido.
-//? Veamos un ejemplo
+//?   su ejecución una vez la promesa haya concluido.
 
+//? Veamos un ejemplo
 const sleepTime = (time) =>
   new Promise((resolve, _reject) => setTimeout(resolve, time * 1000));
 
