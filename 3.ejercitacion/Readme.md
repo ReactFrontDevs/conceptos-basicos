@@ -31,5 +31,13 @@
        - Aquellos con al menos 20 titulos
        - Aquellos con menos de 20 titulos
 
-4. Para poner a prueba tus habilidades de desarrollo frontend
-   te invito a visitar el enlace [Frontend Mentor](https://www.frontendmentor.io/challenges)
+---
+
+<br/>
+
+> [!Note]
+>
+> Para poner a prueba tus habilidades de desarrollo frontend
+> te invito a visitar [Frontend Mentor](https://www.frontendmentor.io/challenges)
+>
+> [!Note]
