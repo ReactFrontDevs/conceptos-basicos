@@ -1,0 +1,92 @@
+export const equiposFutballArg = [
+  {
+    nombre: 'River Plate',
+    estadio: 'Estadio Monumental',
+    ubicacion: 'Buenos Aires',
+    titulos: 36,
+  },
+  {
+    nombre: 'Boca Juniors',
+    estadio: 'La Bombonera',
+    ubicacion: 'Buenos Aires',
+    titulos: 34,
+  },
+  {
+    nombre: 'Independiente',
+    estadio: 'Estadio Libertadores de América',
+    ubicacion: 'Avellaneda',
+    titulos: 20,
+  },
+  {
+    nombre: 'Racing Club',
+    estadio: 'Estadio Presidente Perón',
+    ubicacion: 'Avellaneda',
+    titulos: 18,
+  },
+  {
+    nombre: 'San Lorenzo',
+    estadio: 'Estadio Pedro Bidegain',
+    ubicacion: 'Buenos Aires',
+    titulos: 15,
+  },
+  {
+    nombre: 'Vélez Sarsfield',
+    estadio: 'Estadio José Amalfitani',
+    ubicacion: 'Buenos Aires',
+    titulos: 10,
+  },
+  {
+    nombre: 'Estudiantes de La Plata',
+    estadio: 'Estadio Jorge Luis Hirschi',
+    ubicacion: 'La Plata',
+    titulos: 6,
+  },
+  {
+    nombre: "Newell's Old Boys",
+    estadio: 'Estadio Marcelo Bielsa',
+    ubicacion: 'Rosario',
+    titulos: 6,
+  },
+  {
+    nombre: 'Rosario Central',
+    estadio: 'Estadio Gigante de Arroyito',
+    ubicacion: 'Rosario',
+    titulos: 4,
+  },
+  {
+    nombre: 'Gimnasia y Esgrima La Plata',
+    estadio: 'Estadio Juan Carmelo Zerillo',
+    ubicacion: 'La Plata',
+    titulos: 2,
+  },
+  {
+    nombre: 'Banfield',
+    estadio: 'Estadio Florencio Sola',
+    ubicacion: 'Banfield',
+    titulos: 1,
+  },
+  {
+    nombre: 'Arsenal de Sarandí',
+    estadio: 'Estadio Julio H. Grondona',
+    ubicacion: 'Sarandí',
+    titulos: 1,
+  },
+  {
+    nombre: 'Huracán',
+    estadio: 'Estadio Tomás Adolfo Ducó',
+    ubicacion: 'Buenos Aires',
+    titulos: 1,
+  },
+  {
+    nombre: 'Argentinos Juniors',
+    estadio: 'Estadio Diego Armando Maradona',
+    ubicacion: 'Buenos Aires',
+    titulos: 1,
+  },
+  {
+    nombre: 'Defensa y Justicia',
+    estadio: 'Estadio Norberto Tomaghello',
+    ubicacion: 'Florencio Varela',
+    titulos: 1,
+  },
+];
