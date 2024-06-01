@@ -1,8 +1,10 @@
 # conceptos-basicos
 
+![](markmap.svg)
+
 > [!TIP]
 >
-> Conceptos ES6 básicos
+> ES6 básicos
 >
 > - Constantes y variables Let
 > - Template String
