@@ -39,5 +39,3 @@
 >
 > Para poner a prueba tus habilidades de desarrollo frontend
 > te invito a visitar [Frontend Mentor](https://www.frontendmentor.io/challenges)
->
-> [!Note]
