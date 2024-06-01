@@ -33,6 +33,31 @@
 
 ---
 
+##### Realizando fetching de datos
+
+- Utilizando [{JSON} Placeholder](https://jsonplaceholder.typicode.com/)
+
+  - Crea un script y realiza un fetching de "todos"
+
+    - A. Recupera el json resultante en una constante **data** y logueala por consola.
+    - B. Filtra las tareas que esten sin completar
+    - C. Crea un array con los titulos de todos las tareas
+
+  - Ahora comenta el codigo anterior y:
+    - crea un fn _getData_ que utilice async await y try catch
+    - Repite los putnos A B C haciendo uso de _getData_
+
+##### Referencia
+
+```javascript
+// Encadenando promesas
+fetch('https://jsonplaceholder.typicode.com/todos?_limit=10').then((response) =>
+  response.json()
+);
+```
+
+---
+
 <br/>
 
 > [!Note]
