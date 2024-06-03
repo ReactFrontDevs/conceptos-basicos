@@ -11,7 +11,9 @@
      - abilities -> isHidden
    - Crea un objecto literal y muestralo por consola utilizando template string
 
-2. Importa "futball-data.js" en -> "2.futball.js"
+2. Resuleve el script "routes.js".
+
+3. Importa "futball-data.js" en -> "2.futball.js"
 
    - Muestra por consola:
      - Cantidad de equipos
@@ -22,7 +24,7 @@
      - Solo aquellos que se localicen en "Rosario"
      - Uno que se encuentre en "Buenos Aires"
 
-3. Importa "futball-data.js" en -> "3.futball.js"
+4. Importa "futball-data.js" en -> "3.futball.js"
 
    - Esta vez nos toca separarlos en grupos:
      - Por ubicación
